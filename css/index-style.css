@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+header {
+  background-color: #2ecc71;
+  height: 500px;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 300% 0, 0 100%, 0 70%);
+          clip-path: polygon(0 0, 300% 0, 0 100%, 0 70%);
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+}
+
+header #topNavBar {
+  padding: 0px 0px;
+}
+
+header #topNavBar #navBarLinks {
+  list-style: none;
+  width: 100%;
+}
+
+header #topNavBar #navBarLinks .navBarLink {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px;
+  color: #ecf0f1;
+  font-size: 0.78em;
+  font-family: "Open Sans", sans-serif;
+}
+
+header #topNavBar #navBarLinks .navBarLink:hover {
+  color: white;
+}
+
+header #topNavBar #navBarLinks .navBarLink #logoText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+header #medicalReportImg {
+  max-width: 500px;
+  width: 80%;
+  height: auto;
+  position: absolute;
+  margin: 15% 0 0 5%;
+}
+
+#searchBarSection {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 350px;
+}
+
+#searchBarSection #searchBar {
+  width: 65%;
+  max-width: 800px;
+  padding: 20px;
+  border: 0.5px solid #dde4e6;
+  border-radius: 10px;
+  font-size: 20px;
+  -webkit-box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 20px 3px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  caret-color: #2ecc71;
+}
+
+#searchBarSection #searchBar:focus {
+  outline: none;
+  -webkit-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+#searchBarSection #donorsList {
+  list-style: none;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#searchBarSection #donorsList .donorCardContainer .donorCard {
+  background-color: #fff;
+  min-width: 350px;
+  width: 68%;
+  margin: 0 auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.3);
+  border: solid 0.5px #e6e6e6;
+  padding: 15px;
+}
+
+#searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 15px;
+}
+
+#searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails .donorName {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+#searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails .donorPhoneNum {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #7f8c8d;
+  text-align: left;
+}
+
+#searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails .donorCity {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: right;
+}
+
+#searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails .donorBloodGroup {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-align: right;
+  color: #e74c3c;
+  font-size: 16px;
+}
+/*# sourceMappingURL=index-style.css.map */
