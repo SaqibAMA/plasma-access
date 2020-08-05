@@ -1,0 +1,28 @@
+{
+  "name": "plasma-access",
+  "version": "0.2.0",
+  "description": "An open-source utility to connect plasma donors with recipients.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PySaqib/plasma-access.git"
+  },
+  "keywords": [
+    "plasma",
+    "access",
+    "donation",
+    "web-based"
+  ],
+  "author": "Saqib Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PySaqib/plasma-access/issues"
+  },
+  "homepage": "https://github.com/PySaqib/plasma-access#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
