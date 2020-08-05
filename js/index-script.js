@@ -12,7 +12,7 @@ $(document).scroll(()=>{
 
 $(document).ready( ()=> {
 
-    $.getJSON('../sampleDonorData.json', (jsonData) => {
+    $.getJSON('/sampleDonorData.json', (jsonData) => {
 
         for (var i = 0; i < jsonData['donors'].length; i++) {
 
