@@ -97,9 +97,12 @@ header #medicalReportImg {
   padding-top: 20px;
 }
 
+#searchBarSection #donorsList .donorCardContainer {
+  padding: 5px 0px;
+}
+
 #searchBarSection #donorsList .donorCardContainer .donorCard {
   background-color: #fff;
-  min-width: 350px;
   width: 68%;
   margin: 0 auto;
   border-radius: 5px;
@@ -112,8 +115,8 @@ header #medicalReportImg {
 #searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
+  -ms-grid-columns: 40% 20% 20% auto;
+      grid-template-columns: 40% 20% 20% auto;
   grid-gap: 10px;
   padding: 15px;
 }
@@ -129,7 +132,7 @@ header #medicalReportImg {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #7f8c8d;
-  text-align: left;
+  text-align: right;
 }
 
 #searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails .donorCity {
