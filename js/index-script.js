@@ -10,9 +10,11 @@ $(document).scroll(()=>{
 
 });
 
+const dataURL = 'https://api.jsonbin.io/b/5f2ab4491823333f8f1d2140';
+
 $(document).ready( ()=> {
 
-    $.getJSON('/sampleDonorData.json', (jsonData) => {
+    $.getJSON(dataURL, (jsonData) => {
 
         for (var i = 0; i < jsonData['donors'].length; i++) {
 
