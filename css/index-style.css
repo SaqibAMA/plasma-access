@@ -99,6 +99,7 @@ header #medicalReportImg {
 
 #searchBarSection #donorsList .donorCardContainer {
   padding: 5px 0px;
+  cursor: default;
 }
 
 #searchBarSection #donorsList .donorCardContainer .donorCard {
@@ -115,8 +116,8 @@ header #medicalReportImg {
 #searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 40% 20% 20% auto;
-      grid-template-columns: 40% 20% 20% auto;
+  -ms-grid-columns: 40% 35% auto auto;
+      grid-template-columns: 40% 35% auto auto;
   grid-gap: 10px;
   padding: 15px;
 }
@@ -132,7 +133,7 @@ header #medicalReportImg {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #7f8c8d;
-  text-align: right;
+  text-align: left;
 }
 
 #searchBarSection #donorsList .donorCardContainer .donorCard .donorDetails .donorCity {
@@ -147,5 +148,31 @@ header #medicalReportImg {
   text-align: right;
   color: #e74c3c;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+  .donorCardContainer .donorCard {
+    padding: 10px !important;
+  }
+  .donorCardContainer .donorCard .donorDetails {
+    -ms-grid-columns: 35% 35% auto auto !important;
+        grid-template-columns: 35% 35% auto auto !important;
+    grid-gap: 0px !important;
+    padding: 5px !important;
+  }
+  .donorCardContainer .donorCard .donorDetails .donorName {
+    font-size: 13px !important;
+    color: #7f8c8d;
+  }
+  .donorCardContainer .donorCard .donorDetails .donorPhoneNum {
+    font-size: 12px !important;
+  }
+  .donorCardContainer .donorCard .donorDetails .donorCity {
+    font-size: 13px !important;
+    text-align: left !important;
+  }
+  .donorCardContainer .donorCard .donorDetails .donorBloodGroup {
+    font-size: 13px !important;
+  }
 }
 /*# sourceMappingURL=index-style.css.map */

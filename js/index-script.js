@@ -14,7 +14,7 @@ $(document).ready( ()=> {
 
     $.getJSON('../sampleDonorData.json', (jsonData) => {
 
-        for (var i = 0; i < 2; i++) {
+        for (var i = 0; i < jsonData['donors'].length; i++) {
 
             var dataHandle = jsonData['donors'][i];
 

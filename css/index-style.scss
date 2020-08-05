@@ -1,3 +1,4 @@
+// $body-bg: #2c3e50;
 $primary: #2ecc71;
 $primary-dark: #27ae60;
 $highlight: #ecf0f1;
@@ -123,6 +124,7 @@ header {
         .donorCardContainer {
 
             padding: 5px 0px;
+            cursor: default;
             
             .donorCard {
                 background-color: $search-bar-bg;
@@ -138,7 +140,7 @@ header {
                 .donorDetails {
 
                     display: grid;
-                    grid-template-columns: 40% 20% 20% auto;
+                    grid-template-columns: 40% 35% auto auto;
                     grid-gap: 10px;
                     padding: 15px;
 
@@ -154,7 +156,7 @@ header {
                         font-size: 14px;
                         color: 
                         $font-dim;
-                        text-align: right;
+                        text-align: left;
                     }
 
                     .donorCity {
@@ -172,6 +174,47 @@ header {
 
                     }
 
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .donorCardContainer {
+        
+        .donorCard {
+
+            padding: 10px !important;
+
+            .donorDetails {
+
+                grid-template-columns: 35% 35% auto auto !important;
+                grid-gap: 0px !important;
+                padding: 5px !important;
+
+                .donorName {
+                    font-size: 13px !important;
+                    color: $font-dim;
+                }
+
+                .donorPhoneNum {
+                    font-size: 12px !important;
+                }
+
+                .donorCity {
+                    font-size: 13px !important;
+                    text-align: left !important;
+                }
+
+                .donorBloodGroup {
+                    font-size: 13px !important;
                 }
 
             }
