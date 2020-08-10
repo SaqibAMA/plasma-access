@@ -10,7 +10,7 @@ $(document).scroll(()=>{
 
 });
 
-const dataURL = 'https://api.jsonbin.io/b/5f2ab4491823333f8f1d2140/1';
+const dataURL = 'http://127.0.0.1:8080/donorData';
 
 $(document).ready( ()=> {
 

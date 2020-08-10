@@ -1,0 +1,17 @@
+{
+    "donors": [
+        {
+            "name" : "Saqib Ali",
+            "phoneNum" : "03044010321",
+            "city" : "LHR",
+            "bloodGroup" : "AB+"
+
+        },
+        {
+            "name" : "Muhammad Aslam",
+            "phoneNum" : "03044010321",
+            "city" : "LHR",
+            "bloodGroup" : "O+"
+        }
+    ]
+}
